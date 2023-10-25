@@ -1,10 +1,22 @@
+// what is a variable
+var salary; // declaring a variable
+salary = 300; // assigning or initialising a variable
+console.log(salary * 999); // outputting to the log
 
+var tax = "Mo";
+console.log(tax * salary); //NaN cant multiply string with bnumber
+var firstName = "Abdi"; //string primitive data type variable holds only 1 value
+var lastName = "Jama"; //string
+var age = 24; //number
+var isMarried = false; //boolean
+var friends = ["Mariam", "Said", "Bilal"] // arrays is non-primitive data types and holds multiple values/data
+var human;
+console.log(human) // undefined because there is no data in here such as male or female
 
-
-var dateOfBirthForTheBoy;
-  fish = "Gold Fish"
+// var dateOfBirthForTheBoy;
+//   fish = "Gold Fish"
     
-console.log(ish)
+// console.log(ish)
 
 // // list name
 
