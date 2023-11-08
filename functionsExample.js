@@ -1,4 +1,4 @@
-// function boys () {
+// function boys() {
 //     console.log("What boys like")
 //     console.log("Football")
 //     console.log("Cars")
@@ -7,24 +7,32 @@
 //     console.log("Blue color")
 // }
 
-
-// function girls () {
+// let firstName = "Ali"
+// // parameters
+// function girls(param1, param2) {
 //     console.log("What girls like")
-//     console.log("Makeup")
-//     console.log("Gold")
+//     console.log(param2)
+//     console.log(param1)
 //     console.log("Weddings")
 //     console.log("Pink Color")
+
 // }
 
+// // Arguments
+// // boys()
+// girls("Silver", "Makeups")
 
 
-// console.log(multiply(5,6,4))
+// a fuction that multiplies 3 numbers together and returns the result
+function multiply(num1, num2, num3, num4) {
+   var result = num1 * num2 * num3 * num4;
+   return result;
+}
 
-// function multiply(num1,num2,num3) {  
-//    var result = num1 * num2 * num3
-//    return result
-// }
 
+
+let whatGotReturn = multiply(5, 5, 5, 5)
+console.log(whatGotReturn)
 // boys()
 // girls()
 
@@ -48,8 +56,7 @@
 //     console.log("Friday, let go to the Mosque")
 // }
 
-var salary = 200;
+// var salary = 200;
 //salary = salary + 20;
-salary /= 20
-console.log(salary)
-
+// salary /= 20
+// console.log(salary)
